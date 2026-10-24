@@ -1,3 +1,4 @@
+
 ## HCP Terraform remote execution runs your Terraform plans and applies securely on HashiCorp’s managed cloud infrastructure instead of your local machine, the state file is automatically stored, locked, and updated securely in the cloud during every run  
 
 
@@ -169,5 +170,7 @@ After terraform apply => can check workspaces and statefile
 
 #### Donot forget to destroy => destroy strictly not to face error
 terraform destroy --auto-apporve
+
+
 
 
