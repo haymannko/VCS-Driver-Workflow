@@ -18,6 +18,7 @@ resource "local_sensitive_file" "fe_private_key" {
   content         = tls_private_key.fe_keypair.private_key_openssh
   filename        = local.fe_private_key_filename
   file_permission = "0600"
+}
 
 resource "tls_private_key" "be_keypair" {
   algorithm = "ED25519"
@@ -39,3 +40,4 @@ resource "local_sensitive_file" "be_private_key" {
   content         = tls_private_key.be_keypair.private_key_openssh
   filename        = local.be_private_key_filename
   file_permission = "0600"
+}
