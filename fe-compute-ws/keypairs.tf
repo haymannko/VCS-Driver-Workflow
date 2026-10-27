@@ -29,11 +29,6 @@ resource "aws_key_pair" "be_keypair" {
   public_key = tls_private_key.be_keypair.public_key_openssh
 }
 
-resource "aws_key_pair" "be_keypair" {
-  key_name   = local.be_private_key_filename
-  public_key = tls_private_key.be_keypair.public_key_openssh
-}
-
 
 # Save frontend private key locally
 resource "local_sensitive_file" "be_private_key" {
