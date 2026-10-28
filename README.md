@@ -24,5 +24,5 @@
 ### Resources Destroy with Queue Destroy Plan(Donot forget)
 ![alt text](images/image.png)
 
-### please check detail in Notion Link
+### Check detail in Notion Link
 https://app.notion.com/p/Version-Control-System-Driven-Workflow-VCS-407e0923e7f58095b92ce01807baca2f?source=copy_link
